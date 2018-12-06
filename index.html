@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Sm Services</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+	<link href="css/style.css" rel="stylesheet" media="screen">
+	<link href="css/bootstrap-rtl.css" rel="stylesheet">
+	<style>
+	
+
+	</style>
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   <header class="">
+    <nav class="navbar navbar-fixed-top" id="bg-gray">
+       <div class="">
+		  <div class="navbar-header">
+			  <a class="navbar-brand" href="index.html"><img class="logo-setting" src="image/logo.png" alt="LOGO"/></a>
+			  <p class="navbar-brand text-setting-nav margin-text-setting-nav">بوابتك لجميع الخدمات</p>
+		  </div>
+		  <div class="container">
+		  <ul class="nav navbar-nav navbar-right nav-padding-fix1">
+			  <li class="active navbar-right"><a class="text-setting-nav" href="index.html">الرئيسية</a></li>
+			  <li class="dropdown navbar-right">
+				<a class="dropdown-toggle text-setting-nav" data-toggle="dropdown" href="#">الفئات
+				<span class="caret"></span></a>
+				   <ul class="dropdown-menu">
+						  <li><a href="#">Page 1-1</a></li>
+						  <li><a href="#">Page 1-2</a></li>
+						  <li><a href="#">Page 1-3</a></li>
+					</ul>
+			  </li>
+			  <li class="dropdown navbar-right">
+				<a class="dropdown-toggle text-setting-nav" data-toggle="dropdown" href="#">الخدمات المميزة
+				<span class="caret"></span></a>
+				   <ul class="dropdown-menu">
+						  <li><a href="#">Page 2-1</a></li>
+						  <li><a href="#">Page 2-2</a></li>
+						  <li><a href="#">Page 2-3</a></li>
+					</ul>
+			  </li>
+			  <li><a class="navbar-right text-setting-nav" href="#">عن موقعنا</a></li>
+			  <li><a class="text-setting-nav" href="#">اتصل بنا</a></li>
+			  <li><a class="text-setting-nav" href="#"><span class="glyphicon glyphicon-user"></span> التسجيل</a></li>
+			  <li><a class="text-setting-nav" onclick="document.getElementById('id01').style.display='block'" style="width:auto; href="#"><span class="glyphicon glyphicon-log-in"></span> دخول</a></li>   
+			</ul>
+          </div>			
+	  </div>
+     </nav>
+	 
+	 <div class="row">
+	    <div class="col-md-8" id="mtop">
+			 <div class="navbar-right search-filter-margin" id="mtop25">
+				<form class="navbar-form" action="/action_page.php">
+					<div class="form-group ">
+					<input type="text" class="form-control" placeholder="....ابحث هنا">
+					</div>
+				  <div class="form-group">
+					  <div class="dropdown">
+								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">قسم الخدمة
+								<span class="caret"></span></button>
+								<ul class="dropdown-menu">
+								  <input class="form-control" id="myInput" type="text" placeholder="Search..">
+								  <li><a href="#">تصاميم الجرافيكس</a></li>
+								  <li><a href="#">الكتابة و الترجمة</a></li>
+								  <li><a href="#">تقنية المعلومات</a></li>
+								  <li><a href="#">الفيديو و الرسوم المتحركة</a></li>
+								  <li><a href="#">الاصوات و الموسيقى</a></li>
+								  <li><a href="#">الاعمال</a></li>
+								</ul>
+						 </div>
+				  </div>
+				  <div class="form-group">
+					<div class="dropdown">
+								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">نوع الخدمة
+								<span class="caret"></span></button>
+								<ul class="dropdown-menu">
+								  <input class="form-control" id="myInput" type="text" placeholder="Search..">
+								  <li><a href="#">الرياض</a></li>
+								  <li><a href="#">مكة المكرمة</a></li>
+								  <li><a href="#">المدينة المنورة</a></li>
+								  <li><a href="#">جدة</a></li>
+								  <li><a href="#">حائل</a></li>
+								  <li><a href="#">الدمام</a></li>
+								</ul>
+						 </div>
+				  </div>  
+				  <div class="form-group">
+						 <div class="dropdown">
+								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">المنطقة
+								<span class="caret"></span></button>
+								<ul class="dropdown-menu">
+								  <input class="form-control" id="myInput" type="text" placeholder="Search..">
+								  <li><a href="#">الرياض</a></li>
+								  <li><a href="#">مكة المكرمة</a></li>
+								  <li><a href="#">المدينة المنورة</a></li>
+								  <li><a href="#">جدة</a></li>
+								  <li><a href="#">حائل</a></li>
+								  <li><a href="#">الدمام</a></li>
+								</ul>
+						 </div>
+				  </div>
+				  <button type="button" class="btn btn-primary btn-md">بحث</button>			  
+				  <button type="button" class="btn btn-primary btn-md">بحث متقدم</button>     	    
+				</form>
+		 </div>
+	 </div>
+	</div>
+   </header>
+   <div>
+       <div id="id01" class="modal2">
+	       <form class="modal-content2 animate" action="/action_page.php">
+		        <div class="imgcontainer">
+				    <span onclick="document.getElementById('id01').style.display='none'" class="cclose" title="Close Modal">&times;</span>
+					<img src="image/img_avatar2.png" alt="Avatar" class="avatar">
+				</div>
+				<div class="container5">
+				    <label for="uname"><b>اسم المستخدم</b></label>
+					<input type="text" placeholder="ادخل اسم المستخدم" name="uname" required>
+					<label for="psw"><b>كلمة المرور</b></label>
+					<input type="password" placeholder="ادخل كلمة المرور" name="psw" required>
+					<button type="submit" class="button1" >دخول</button>
+					<label>
+						<input type="checkbox" checked="checked" name="remember"> تذكرني
+					</label>
+				</div>
+				<div class="container5" style="background-color:#f1f1f1">
+					  <button style="float:left" type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">الغاء</button>
+					  <span class="psw"> نسيت  <a href="#">كلمة المرور؟</a></span>
+					  <label>
+						<a href="#"> ليس لدي حساب </a>
+					  </label>
+				</div>
+		   </form>
+	   </div>
+   </div>   
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+   <!--  ----------------------------------------------------------------------------------- -->
+   <div class="">
+	   <div class="">
+			<div class="section-bg-image" style="background-image: url('image/bgss.jpg')">
+			    <h1>هيا انطلق الى عالم الاعمال الحرة </h1>
+			    <button class="btn btn-md button2">انشئ حسابك</button>
+			</div>
+	   </div>
+	</div>
+	<!----------------------------------------------------------------------->
+   <section id="mtop" class="">
+        <div class="containe margin-top-div-section">
+		
+		   <div class="row">
+		        <div class="col-sm-7">
+				  <div class="row">
+					  <div class="col-sm-12  bg-info">
+						  <div class="col-md-6">
+							<h2><a href="#">مبرمج تطبيقات  الويب</a></h2>
+							<p>قسم تطوير مواقع الويب</p>
+							<address>العنوان: حائل</address>
+							<p>ordered by @Username</p>
+							<p>star Rating</p>
+						  </div>
+						  <div class="col-md-3">
+							 <div class="float-left-img">
+								 <img class="" src="image/logo.jpeg" style="margin-top: 25px" width="180px" height="150px" alt="Image"/>
+							 </div>
+						  </div>
+						  <div class="col-md-3">
+							 <div class="float-left-img">
+								<button type="button" class="btn btn-primary" style="margin-top: 25px; margin-right: 50px; width:100px">طلب</button>
+							 </div>
+						  </div>
+					  </div>
+		 <!------------------------------------------------------->
+					  <div class="col-sm-12 margin-section-between-div  bg-info">
+						  <div class="col-md-6">
+							<h2><a href="#">مبرمج تطبيقات  الويب</a></h2>
+							<p>قسم تطوير مواقع الويب</p>
+							<address>العنوان: حائل</address>
+							<p>ordered by @Username</p>
+							<p>star Rating</p>
+						  </div>
+						  <div class="col-md-3">
+							 <div class="float-left-img">
+								 <img class="" src="image/logo.jpeg" style="margin-top: 25px" width="180px" height="150px" alt="Image"/>
+							 </div>
+						  </div>
+						  <div class="col-md-3">
+							 <div class="float-left-img">
+								<button type="button" class="btn btn-primary" style="margin-top: 25px; margin-right: 50px; width:100px">طلب</button>
+							 </div>
+						  </div>
+					  </div>
+					  <!------------------------------------------------------>
+					  <div class="col-sm-12 margin-section-between-div  bg-info">
+						  <div class="col-md-6">
+							<h2><a href="#">مبرمج تطبيقات  الويب</a></h2>
+							<p>قسم تطوير مواقع الويب</p>
+							<address>العنوان: حائل</address>
+							<p>ordered by @Username</p>
+							<p>star Rating</p>
+						  </div>
+						  <div class="col-md-3">
+							 <div class="float-left-img">
+								 <img class="" src="image/logo.jpeg" style="margin-top: 25px" width="180px" height="150px" alt="Image"/>
+							 </div>
+						  </div>
+						  <div class="col-md-3">
+							 <div class="float-left-img">
+								<button type="button" class="btn btn-primary" style="margin-top: 25px; margin-right: 50px; width:100px">طلب</button>
+							 </div>
+						  </div>
+					  </div>
+					  <!---------------------------------------------------->
+					  <div class="col-sm-12 margin-section-between-div  bg-info">
+						  <div class="col-md-6">
+							<h2><a href="#">مبرمج تطبيقات  الويب</a></h2>
+							<p>قسم تطوير مواقع الويب</p>
+							<address>العنوان: حائل</address>
+							<p>ordered by @Username</p>
+							<p>star Rating</p>
+						  </div>
+						  <div class="col-md-3">
+							 <div class="float-left-img">
+								 <img class="" src="image/logo.jpeg" style="margin-top: 25px" width="180px" height="150px" alt="Image"/>
+							 </div>
+						  </div>
+						  <div class="col-md-3">
+							 <div class="float-left-img">
+								<button type="button" class="btn btn-primary" style="margin-top: 25px; margin-right: 50px; width:100px">طلب</button>
+							 </div>
+						  </div>
+					  </div>
+				  </div>
+			    </div>
+    <!------------- left section     -----------------------------------------------   -->
+				<div class="col-sm-5">
+				  <div class="col-sm-12">
+					  <div class="col-md-12 section-div-pos">
+					      <div class="section-div-color">          
+								  <table class="table table-hover">
+									<thead class="">
+									  <tr>
+										 الخدمات الاكثر طلبا
+									  </tr>
+									</thead>
+									<tbody style="background-color: lightblue; color: black">
+									  <tr>
+									    <td>مصمم جرافيكس</td>
+										<td>@username</td>
+									  </tr>
+									  <tr>
+										<td>مطور مواقع ويب</td>
+										<td>@username1</td>
+									  </tr>
+									  <tr>
+										<td>مطور تطبيقات اندرويد</td>
+										<td>@username3</td>
+									  </tr>
+									  <tr>
+										<td>مقاول بناء</td>
+										<td>@username4</td>
+									  </tr>
+									  <tr>
+										<td>مقاول نجارة</td>
+										<td>@username5</td>
+									  </tr>
+									  <tr>
+										<td>مطور مواقع ويب</td>
+										<td>@username1</td>
+									  </tr>
+									  <tr>
+										<td>مطور مواقع ويب</td>
+										<td>@username1</td>
+									  </tr>
+									  <tr>
+										<td>مطور مواقع ويب</td>
+										<td>@username1</td>
+									  </tr>
+									</tbody>
+								  </table>
+						   </div>  
+					  </div>
+				      <div class="col-md-12">
+					     <div class="col-md-4">
+							 <div class="well well-lg">
+							   <p>Some text..</p>
+							 </div>
+					     </div>
+						 <div class="col-md-4">
+							 <div class="well well-lg">
+							   <p>Some text..</p>
+							 </div>
+					     </div>
+						 <div class="col-md-4">
+							 <div class="well well-lg">
+							   <p>Some text..</p>
+							 </div>
+					     </div>
+					  </div>
+					  <div class="col-md-12">
+					     <div class="col-md-4">
+							 <div class="well well-lg">
+							   <p>Some text..</p>
+							 </div>
+					     </div>
+						 <div class="col-md-4">
+							 <div class="well well-lg">
+							   <p>Some text..</p>
+							 </div>
+					     </div>
+						 <div class="col-md-4">
+							 <div class="well well-lg">
+							   <p>Some text..</p>
+							 </div>
+					     </div>
+					  </div>
+					  <div class="col-md-12">
+					     <div class="col-md-4">
+							 <div class="well well-lg">
+							   <p>Some text..</p>
+							 </div>
+					     </div>
+						 <div class="col-md-4">
+							 <div class="well well-lg">
+							   <p>Some text..</p>
+							 </div>
+					     </div>
+						 <div class="col-md-4">
+							 <div class="well well-lg">
+							   <p>Some text..</p>
+							 </div>
+					     </div>
+					  </div>
+				
+				  </div>
+			   </div>
+		</div>
+				
+   </section>
+   
+   <div class="sec-bg-1" id="mtop">
+			<div id=""> 		
+				<div class="row" style="text-align: center">
+					<h1>استكشاف المزيد داخل الموقع</h1>
+				</div>
+			</div>
+			<div class="" id="mtop">			
+				<div class="row">
+				   <div class="col-md-3" id="sec-div-1">
+					   <a href="#">
+						   <img src="image/design.png" alt="design icon"/>
+						   <h3>تصاميم جرافيكس</h3>
+						   <p>تصميم لوجو, بطاقة اعمال &amp; المزيد</p>
+					   </a>
+				   </div>
+				   <div class="col-md-3" id="sec-div-1">
+					    <a href="#">
+						   <img src="image/digital.png" alt="digital icon" height="15%" width="20%"/>
+						   <h3>التسويق الالكتروني</h3>
+						   <p>السوشل ميديا, SEO, &amp; المزيد</p>
+					   </a>
+				   </div>
+				   <div class="col-md-3" id="sec-div-1">
+					   <a href="#">
+						   <img src="image/writing.png" alt="writing icon" height="15%" width="20%"/>
+						   <h3>اعمال الكتابة  &amp; الترجمة </h3>
+						   <p>السيرة الذاتية, التدقيق اللغوي, الترجمة &amp; المزيد</p>
+					   </a>
+				   </div>
+				   <div class="col-md-3" id="sec-div-1">
+					   <a href="#">
+						   <img src="image/video.png" alt="video icon" height="15%" width="20%"/>
+						   <h3>الفيديو &amp; الرسوم المتحركة </h3>
+						   <p>الشعارات و فيديوهات  العلامات التجارية  &amp; المزيد</p>
+					   </a>
+				   </div>
+				</div>
+				<div class="row" id="mtop25">
+		    <div class="container">
+			   <div>
+			     
+			   </div>
+			</div>
+		</div>
+	<!-----------------------------------second row------------------------------------------------->
+				<div class="row">
+				   <div class="col-md-3" id="sec-div-1">
+					   <a href="#">
+						   <img src="image/music.png" alt="design icon"/>
+						   <h3>الاصوات &amp; الموسيقى</h3>
+						   <p>خلط, مزج, تلحينوانتاج الموسيقى  &amp; المزيد</p>
+					   </a>
+				   </div>
+				   <div class="col-md-3" id="sec-div-1">
+					    <a href="#">
+						   <img src="image/it.png" alt="it icon" height="15%" width="20%"/>
+						   <h3>تقنية المعلومات</h3>
+						   <p>برمجة, شبكات , امن معلومات&amp; المزيد</p>
+					   </a>
+				   </div>
+				   <div class="col-md-3" id="sec-div-1">
+					   <a href="#">
+						   <img src="image/bus.png" alt="business icon" height="15%" width="20%"/>
+						   <h3>اعمال</h3>
+						   <p>مساعد افتراضي, ابحاث  تجارية, خطط تجارية &amp; المزيد</p>
+					   </a>
+				   </div>
+				   <div class="col-md-3" id="sec-div-1">
+					   <a href="#">
+						   <img src="image/learn.png" alt="Learn icon" height="15%" width="20%"/>
+						   <h3>تعليم &amp; ودورات تدريبية </h3>
+						   <p>دورات , كورسات عربي انجليزي , اونلاين, فصول دراسية &amp; المزيد</p>
+					   </a>
+				   </div>
+				</div>
+			</div>
+        </div>
+		
+		<div class="row" id="mbottom">
+		    <div class="container">
+			   <div>
+			     
+			   </div>
+			</div>
+		</div>
+   <!-- Footer -->
+	<footer class="page-footer font-small indigo text-setting-nav" id="bg-gray">
+
+		<!-- Footer Links -->
+		<div class="container text-center text-md-left">
+
+		  <!-- Grid row -->
+		  <div class="row">
+
+			<!-- Grid column -->
+			<div class="col-md-3 mx-auto">
+
+			  <!-- Links -->
+			  <h4 class="font-weight-bold text-uppercase mt-3 mb-4">اقسام الموقع</h4>
+
+			  <ul class="list-unstyled">
+				<li>
+				  <a href="#!" class="text-setting-footer">تصاميم الجرافيكس</a>
+				</li>
+				<li>
+				  <a href="#!" class="text-setting-footer">التسويق الالكتروني</a>
+				</li>
+				<li>
+				  <a href="#!" class="text-setting-footer">اعمال الكتابة & الترجمة</a>
+				</li>
+				<li>
+				  <a href="#!" class="text-setting-footer">الفيديو & الرسوم المتحركة</a>
+				</li>
+				<li>
+				  <a href="#!" class="text-setting-footer">الاصوات & الموسيقى</a>
+				</li>
+				<li>
+				  <a href="#!" class="text-setting-footer">تقنية المعلومات</a>
+				</li>
+				<li>
+				  <a href="#!" class="text-setting-footer">الاعمال التجارية</a>
+				</li>
+				<li>
+				  <a href="#!" class="text-setting-footer">التعليم & الدورات التدريبية</a>
+				</li>
+			  </ul>
+
+			</div>
+			<!-- Grid column -->
+
+			
+
+			<!-- Grid column -->
+			<div class="col-md-3 mx-auto">
+
+			  <!-- Links -->
+			  <h4 class="font-weight-bold text-uppercase mt-3 mb-4 text-setting-footer">عن</h4>
+
+			  <ul class="list-unstyled">
+				<li>
+				  <a href="#!" class="text-setting-footer">اخر الاخبار</a>
+				</li>
+				<li>
+				  <a href="#!" class="text-setting-footer">الشركاء</a>
+				</li>
+				<li>
+				  <a href="#!" class="text-setting-footer">سياسة الخصوصية</a>
+				</li>
+				<li>
+				  <a href="#!" class="text-setting-footer">الملكية الفكرية</a>
+				</li>
+			  </ul>
+
+			</div>
+			<!-- Grid column -->
+
+
+			<!-- Grid column -->
+			<div class="col-md-3 mx-auto">
+
+			  <!-- Links -->
+			  <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-setting-footer">الدعم الفني</h5>
+
+			  <ul class="list-unstyled">
+				<li>
+				  <a href="#!" class="text-setting-footer">اتصال بالدعم</a>
+				</li>
+				<li>
+				  <a href="#!" class="text-setting-footer">المساعدة والتعليم</a>
+				</li>
+				<li>
+				  <a href="#!" class="text-setting-footer">الثقة والامان</a>
+				</li>
+				<li>
+				  <a href="#!" class="text-setting-footer">البيع على موقع سم</a>
+				</li>
+				<li>
+				  <a href="#!" class="text-setting-footer">الشراء على موقع سم</a>
+				</li>
+			  </ul>
+
+			</div>
+			<!-- Grid column -->
+
+
+			<!-- Grid column -->
+			<div class="col-md-3 mx-auto">
+
+			  <!-- Links -->
+			  <h4 class="font-weight-bold text-uppercase mt-3 mb-4 text-setting-footer">المجتمع</h4>
+
+			  <ul class="list-unstyled">
+				<li>
+				  <a href="#!" class="text-setting-footer">احداث</a>
+				</li>
+				<li>
+				  <a href="#!" class="text-setting-footer">المدونة</a>
+				</li>
+				<li>
+				  <a href="#!" class="text-setting-footer">المنتدى</a>
+				</li>
+				<li>
+				  <a href="#!"class="text-setting-footer">ادع صديق</a>
+				</li>
+			  </ul>
+			  <h4 class="font-weight-bold text-uppercase mt-3 mb-4 text-setting-footer">FOR FREELANCER</h4>
+
+			  <ul class="list-unstyled">
+				<li>
+				  <a href="#!" class="text-setting-footer">اصبح بائعا</a>
+				</li>
+			  </ul>
+			</div>
+			<!-- Grid column -->
+
+		  </div>
+		  <!-- Grid row -->
+
+		</div>
+		<!-- Footer Links -->
+
+		<!-- Copyright -->
+		<div class="footer-copyright text-center py-3">© 2018 Copyright:
+		  <a href="https://mdbootstrap.com/bootstrap-tutorial/" class="text-setting-footer"> sm-service.com</a>
+		</div>
+		<!-- Copyright -->
+         
+	  </footer>
+	  
+	  <!-- Footer -->
+      
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+  </body>
+</html>
